@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Outbound_SG extends Model
 {
-    protected $table = 'Outbound_SG';
+    protected $table = 'PartnerList';
 
     public $incrementing = 'record_id';
 
