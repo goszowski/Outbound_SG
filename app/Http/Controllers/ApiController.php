@@ -25,7 +25,7 @@ class ApiController extends Controller
             }
         }
         
-        $data['dateadd'] = Carbon::now()->format('d-m-Y H:i:s');
+        $data['dateadd'] = Carbon::now()->format('m-d-Y H:i:s');
         
         Log::info(json_encode($data));
 
