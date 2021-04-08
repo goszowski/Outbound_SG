@@ -38,5 +38,8 @@ class Outbound_SG extends Model
         'Out_Date',
         'Region',
         'HotOutStatus',
+        'partner',
+        'lead',
+        'dateadd',
     ];
 }
