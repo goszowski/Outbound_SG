@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Outbound_SG;
 use Carbon\Carbon;
+use Log;
 
 class ApiController extends Controller
 {
@@ -25,6 +26,8 @@ class ApiController extends Controller
         }
         
         $data['dateadd'] = Carbon::now()->format('d-m-Y H:i:s');
+        
+        Log::info(json_encode($data));
 
         Outbound_SG::create($data);
 
