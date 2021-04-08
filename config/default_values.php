@@ -4,7 +4,6 @@ return [
     'contact_info' => env('DV_contact_info', null),
     'contact_info_type' => env('DV_contact_info_type'), null,
     'record_type' => env('DV_record_type', null),
-    'phone_type' => env('DV_phone_type', null),
     'record_status' => env('DV_record_status', null),
     'call_result' => env('DV_call_result', null),
     'attempt' => env('DV_attempt', null),
