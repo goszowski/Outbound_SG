@@ -12,5 +12,6 @@ return [
     'daily_till' => env('DV_daily_till', null),
     'tz_dbid' => env('DV_tz_dbid', null),
     'chain_n' => env('DV_chain_n', null),
-    'Dzherelo' => env('DV_Dzherelo', null),
+    'partner' => env('DV_partner', null),
+    'lead' => env('DV_lead', null),
 ];
