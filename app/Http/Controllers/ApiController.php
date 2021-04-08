@@ -24,7 +24,7 @@ class ApiController extends Controller
             }
         }
         
-        $data['dateadd'] = Carbon::now()->format('Y-m-d H:i:s');
+        $data['dateadd'] = Carbon::now()->format('d-m-Y H:m:s');
 
         Outbound_SG::create($data);
 
